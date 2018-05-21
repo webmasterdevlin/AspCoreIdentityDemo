@@ -1,0 +1,7 @@
+##Migrating after changing identity
+
+dotnet ef migrations add Initial
+dotnet ef database update
+
+
+
